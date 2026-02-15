@@ -1,8 +1,9 @@
 local s = require("tomorrow-night.palette")
 
-local highlights = {
-	-- Vim Highlighing
+return {
+	-- Vim Highlighting
 	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L243-L271
+
 	Normal = { fg = s.foreground, bg = s.background },
 	LineNr = { fg = s.selection },
 	NonText = { fg = s.selection },
@@ -17,8 +18,9 @@ local highlights = {
 	WarningMsg = { fg = s.red },
 	MatchParen = { bg = s.selection },
 
-	-- Standard Highlighing
+	-- Standard Highlighting
 	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L273-L291
+
 	Comment = { fg = s.comment },
 	Todo = { fg = s.comment, bg = s.background },
 	Title = { fg = s.comment },
@@ -36,6 +38,12 @@ local highlights = {
 	Type = { fg = s.blue },
 	Define = { fg = s.purple },
 	Include = { fg = s.blue },
-}
 
-return highlights
+	-- HTML Highlighting
+	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L351-L35
+
+	htmlTag = { fg = s.red },
+	htmlTagName = { link = "htmlTag" },
+	htmlArgName = { link = "htmlTag" },
+	htmlScriptTag = { link = "htmlTag" },
+}
