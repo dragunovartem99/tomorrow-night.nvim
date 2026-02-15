@@ -1,5 +1,5 @@
 return {
-	["@lsp.type.member.typescript"] = { link = "Function" },
+	["@lsp.type.member.typescript"] = { link = "@function" },
 	["@lsp.type.property.typescript"] = { link = "@property" },
 
 	["typescriptImport"] = { link = "@statement" },

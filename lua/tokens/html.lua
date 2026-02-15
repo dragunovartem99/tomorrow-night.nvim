@@ -1,12 +1,12 @@
 local p = require("palette")
 
 return {
-	htmlTag = { fg = p.red },
-	htmlTagName = { link = "htmlTag" },
-	htmlArgName = { link = "htmlTag" },
-	htmlSpecialTagName = { link = "htmlTag" },
+	htmlTag = { fg = p.foreground },
+	htmlEndTag = { fg = p.foreground },
 
-	htmlTagN = { fg = p.orange },
+	htmlTagName = { link = "@tag" },
+	htmlSpecialTagName = { link = "@tag" },
+	htmlTagN = { link = "@tag" },
 
 	htmlTitle = { link = "@title" },
 	htmlH1 = { link = "@title" },

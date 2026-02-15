@@ -34,7 +34,6 @@ return {
 	Special = { fg = p.foreground },
 	PreProc = { fg = p.purple },
 	Operator = { fg = p.aqua },
-	Type = { fg = p.blue },
 	Define = { fg = p.purple },
 	Include = { fg = p.blue },
 }
