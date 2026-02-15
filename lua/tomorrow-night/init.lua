@@ -1,7 +1,7 @@
 local Theme = {}
 
 local sources = {
-	"tomorrow-night.highlights.authentic",
+	"tokens.base",
 }
 
 function Theme.setup()
