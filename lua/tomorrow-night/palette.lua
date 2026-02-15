@@ -1,25 +1,23 @@
 -- Tomorrow Night by Chris Kempson (http://chriskempson.com)
 
--- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim
--- https://github.com/Gogh-Co/Gogh/blob/master/themes/Tomorrow%20Night.yml
+-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L7-L19
 
 -- stylua: ignore
 
 local palette = {
-	black        = "#282A2E",
-	red          = "#CC6666",
-	green        = "#B5BD68",
-	yellow       = "#F0C674",
-	blue         = "#81A2BE",
-	magenta      = "#B294BB",
-	cyan         = "#8ABEB7",
-	white        = "#C5C8C6",
-
-	bright_black = "#969896",
-	bright_white = "#FFFFFF",
-
-	background   = "#1D1F21",
-	foreground   = "#C5C8C6",
+	foreground = "#c5c8c6",
+	background = "#1d1f21",
+	selection  = "#373b41",
+	line       = "#282a2e",
+	comment    = "#969896",
+	red        = "#cc6666",
+	orange     = "#de935f",
+	yellow     = "#f0c674",
+	green      = "#b5bd68",
+	aqua       = "#8abeb7",
+	blue       = "#81a2be",
+	purple     = "#b294bb",
+	window     = "#4D5057",
 }
 
 return palette
