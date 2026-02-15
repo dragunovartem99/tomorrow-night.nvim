@@ -1,1 +1,1 @@
-require("tomorrow-night").setup()
+require("theme").setup()

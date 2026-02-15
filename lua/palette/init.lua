@@ -17,7 +17,9 @@ local palette = {
 	aqua       = "#8abeb7",
 	blue       = "#81a2be",
 	purple     = "#b294bb",
-	window     = "#4D5057",
+	window     = "#4d5057",
+
+	white      = "#ffffff",
 }
 
 return palette

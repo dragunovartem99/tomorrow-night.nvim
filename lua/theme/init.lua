@@ -1,7 +1,12 @@
 local Theme = {}
 
 local sources = {
+	"links",
+	"tokens.original",
 	"tokens.base",
+	"tokens.html",
+	"tokens.javascript",
+	"tokens.typescript",
 }
 
 function Theme.setup()
