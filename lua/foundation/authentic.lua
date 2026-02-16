@@ -36,7 +36,6 @@ return {
 	Todo = { fg = p.comment, bg = p.background },
 	Title = { fg = p.comment },
 	Identifier = { fg = p.red },
-	Statement = { fg = p.foreground },
 	Conditional = { fg = p.foreground },
 	Repeat = { fg = p.foreground },
 	Structure = { fg = p.purple },
@@ -46,7 +45,6 @@ return {
 	Special = { fg = p.foreground },
 	PreProc = { fg = p.purple },
 	Operator = { fg = p.aqua },
-	Type = { fg = p.blue },
 	Define = { fg = p.purple },
 	Include = { fg = p.blue },
 }

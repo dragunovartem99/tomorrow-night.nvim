@@ -2,6 +2,7 @@ local Theme = {}
 
 local modules = {
 	"foundation.authentic",
+	"foundation.custom",
 }
 
 function Theme.setup()
