@@ -1,12 +1,13 @@
 local Theme = {}
 
-local sources = {
+local modules = {
 	"foundation.authentic",
 }
 
 function Theme.setup()
-	for _, source in ipairs(sources) do
-		local highlights = require(source)
+	for _, module in ipairs(modules) do
+		local highlights = require(module)
+
 		for group, params in pairs(highlights) do
 			vim.api.nvim_set_hl(0, group, params)
 		end
