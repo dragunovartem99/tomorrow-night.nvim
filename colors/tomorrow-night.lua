@@ -1,1 +1,1 @@
-require("theme").setup()
+require("index").setup()
