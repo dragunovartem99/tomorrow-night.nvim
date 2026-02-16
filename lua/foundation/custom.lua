@@ -1,6 +1,9 @@
 local p = require("palette")
 
 return {
+	["@tag"] = { fg = p.red },
+	["@tag.attribute"] = { fg = p.foreground },
+
 	["@variable"] = { fg = p.white },
 	["@property"] = { fg = p.foreground },
 
