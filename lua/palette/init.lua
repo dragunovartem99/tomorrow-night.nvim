@@ -19,7 +19,7 @@ local palette = {
 	purple     = "#b294bb",
 	window     = "#4d5057",
 
-	white      = "#ffffff",
+	white      = "#ffffff", -- not a part of authentic theme
 }
 
 return palette
