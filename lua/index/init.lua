@@ -4,7 +4,7 @@ local modules = {
 	"foundation.authentic",
 	"foundation.custom",
 
-	"diagnostic",
+	"lsp.diagnostic",
 
 	"libraries.gitsigns",
 }
