@@ -3,7 +3,10 @@ local Theme = {}
 local modules = {
 	"foundation.authentic",
 	"foundation.custom",
+
 	"diagnostic",
+
+	"libraries.gitsigns",
 }
 
 function Theme.setup()
