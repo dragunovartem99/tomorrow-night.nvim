@@ -1,5 +1,3 @@
-local Theme = {}
-
 local modules = {
 	"foundation.authentic",
 	"foundation.custom",
@@ -8,6 +6,8 @@ local modules = {
 
 	"libraries.gitsigns",
 }
+
+local Theme = {}
 
 function Theme.setup()
 	for _, module in ipairs(modules) do
