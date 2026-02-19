@@ -53,7 +53,7 @@ return {
 
 	diffAdded = { fg = p.green },
 	diffRemoved = { fg = p.red },
-	diffAdd = { fg = p.green, bg = p.window },
+	diffAdd = { fg = p.green, bg = p.window }, -- reused "window" instead of "diffBackground" to keep pallete compact
 	diffDelete = { fg = p.red, bg = p.window },
 	diffChange = { fg = p.yellow, bg = p.window },
 	diffText = { fg = p.window, bg = p.orange },
