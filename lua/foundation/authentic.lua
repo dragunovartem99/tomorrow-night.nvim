@@ -42,7 +42,6 @@ return {
 	Function = { fg = p.blue },
 	Constant = { fg = p.orange },
 	String = { fg = p.green },
-	Special = { fg = p.foreground },
 	PreProc = { fg = p.purple },
 	Operator = { fg = p.aqua },
 	Define = { fg = p.purple },

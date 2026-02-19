@@ -1,0 +1,3 @@
+return {
+	shDeref = { link = "@variable" },
+}

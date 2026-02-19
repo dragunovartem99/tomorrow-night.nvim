@@ -9,6 +9,7 @@ return {
 
 	Title = { fg = p.white, bold = true },
 	Type = { fg = p.yellow },
+	Special = { fg = p.yellow },
 	Statement = { fg = p.purple },
-	Identifier = { fg = p.white },
+	Identifier = { link = "@variable" },
 }
