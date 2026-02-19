@@ -40,7 +40,7 @@ return {
 	Repeat = { fg = p.foreground },
 	Structure = { fg = p.purple },
 	Function = { fg = p.blue },
-	Constant = { fg = p.orange },
+	Constant = abstract("constant"),
 	String = abstract("string"),
 	PreProc = { fg = p.purple },
 	Operator = { fg = p.aqua },

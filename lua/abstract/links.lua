@@ -7,6 +7,8 @@ return {
 	["@variable"] = { fg = p.white },
 	["@property"] = { fg = p.foreground },
 
+	["@type"] = { fg = p.yellow },
 	["@string"] = { fg = p.green },
 	["@comment"] = { fg = p.comment },
+	["@constant"] = { fg = p.orange },
 }

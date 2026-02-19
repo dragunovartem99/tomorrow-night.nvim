@@ -5,6 +5,7 @@ local modules = {
 	"foundation.custom",
 
 	"programming.diagnostic",
+	"programming.lsp",
 	"programming.bash",
 
 	"libraries.gitsigns",
