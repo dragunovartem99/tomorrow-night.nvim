@@ -11,4 +11,5 @@ return {
 	["@string"] = { fg = p.green },
 	["@comment"] = { fg = p.comment },
 	["@constant"] = { fg = p.orange },
+	["@statement"] = { fg = p.purple },
 }

@@ -36,7 +36,6 @@ return {
 
 	Comment = abstract("comment"),
 	Todo = { fg = p.comment, bg = p.background },
-	Conditional = { fg = p.foreground },
 	Repeat = { fg = p.foreground },
 	Structure = { fg = p.purple },
 	Function = { fg = p.blue },
