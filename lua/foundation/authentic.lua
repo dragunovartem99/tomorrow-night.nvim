@@ -28,6 +28,7 @@ return {
 	PMenuSel = { fg = p.foreground, bg = p.selection, reverse = true },
 	SignColumn = { bg = p.background },
 	ColorColumn = { bg = p.line },
+	vimCommand = { fg = p.red },
 
 	-- Standard Highlighting
 	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L273-L290
@@ -46,4 +47,14 @@ return {
 	Operator = { fg = p.aqua },
 	Define = { fg = p.purple },
 	Include = { fg = p.blue },
+
+	-- Diff Highlighting
+	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L357-L365
+
+	diffAdded = { fg = p.green },
+	diffRemoved = { fg = p.red },
+	diffAdd = { fg = p.green, bg = p.window },
+	diffDelete = { fg = p.red, bg = p.window },
+	diffChange = { fg = p.yellow, bg = p.window },
+	diffText = { fg = p.window, bg = p.orange },
 }
