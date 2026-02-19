@@ -34,15 +34,15 @@ return {
 	-- Standard Highlighting
 	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L273-L290
 
-	Comment = abstract("comment"),
+	Comment = abstract("COMMENT"),
 	Todo = { fg = p.comment, bg = p.background },
 	Repeat = { fg = p.foreground },
 	Structure = { fg = p.purple },
-	Function = { fg = p.blue },
-	Constant = abstract("constant"),
-	String = abstract("string"),
+	Function = abstract("FUNCTION"),
+	Constant = abstract("CONSTANT"),
+	String = abstract("STRING"),
 	PreProc = { fg = p.purple },
-	Operator = { fg = p.aqua },
+	Operator = abstract("OPERATOR"),
 	Define = { fg = p.purple },
 	Include = { fg = p.blue },
 

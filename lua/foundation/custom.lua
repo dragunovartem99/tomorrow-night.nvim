@@ -1,11 +1,10 @@
-local p = require("palette")
 local abstract = require("abstract")
 
 return {
-	Title = { fg = p.white, bold = true },
-	Type = abstract("type"),
-	Special = { fg = p.red },
-	Statement = abstract("statement"),
-	Conditional = abstract("statement"),
-	Identifier = abstract("variable"),
+	Title = abstract("TITLE"),
+	Type = abstract("TYPE"),
+	Special = abstract("SPECIAL"),
+	Statement = abstract("STATEMENT"),
+	Conditional = abstract("STATEMENT"),
+	Identifier = abstract("VARIABLE"),
 }

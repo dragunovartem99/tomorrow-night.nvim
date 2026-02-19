@@ -1,7 +1,23 @@
-local links = require("abstract.links")
+local p = require("palette")
 
-local function abstract(name)
-	return links["@" .. name]
+return function(key)
+	return ({
+		CLASS = { fg = p.white },
+		PROPERTY = { fg = p.foreground },
+		FUNCTION = { fg = p.blue },
+
+		VARIABLE = { fg = p.white },
+		CONSTANT = { fg = p.orange },
+
+		TYPE = { fg = p.yellow },
+		STRING = { fg = p.green },
+		COMMENT = { fg = p.comment },
+		OPERATOR = { fg = p.aqua },
+		STATEMENT = { fg = p.purple },
+
+		SPECIAL = { fg = p.red },
+
+		TAG = { fg = p.red }, -- in authentic theme, HTML tags were also red
+		TITLE = { fg = p.white, bold = true },
+	})[key]
 end
-
-return abstract

@@ -1,11 +1,9 @@
 local modules = {
-	"abstract.links",
-
 	"foundation.authentic",
 	"foundation.custom",
 
+	"programming.treesitter",
 	"programming.diagnostic",
-	"programming.lsp",
 	"programming.bash",
 
 	"libraries.gitsigns",

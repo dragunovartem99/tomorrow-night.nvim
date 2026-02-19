@@ -6,5 +6,5 @@ return {
 	GitSignsChange = { fg = p.yellow },
 	GitSignsDelete = { fg = p.red },
 
-	GitSignsCurrentLineBlame = abstract("comment"),
+	GitSignsCurrentLineBlame = abstract("COMMENT"),
 }

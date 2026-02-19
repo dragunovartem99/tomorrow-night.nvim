@@ -1,6 +1,8 @@
 local abstract = require("abstract")
 
 return {
-	shDeref = abstract("variable"),
-	shQuote = abstract("string"),
+	shDeref = abstract("VARIABLE"),
+	shOption = abstract("PROPERTY"),
+	shQuote = abstract("STRING"),
+	shSource = abstract("STATEMENT"),
 }
