@@ -1,15 +1,10 @@
 local p = require("palette")
+local abstract = require("abstract")
 
 return {
-	["@tag"] = { fg = p.red }, -- in authentic theme, HTML tags were also red
-	["@tag.attribute"] = { fg = p.foreground },
-
-	["@variable"] = { fg = p.white },
-	["@property"] = { fg = p.foreground },
-
 	Title = { fg = p.white, bold = true },
 	Type = { fg = p.yellow },
 	Special = { fg = p.yellow },
 	Statement = { fg = p.purple },
-	Identifier = { link = "@variable" },
+	Identifier = abstract("variable"),
 }

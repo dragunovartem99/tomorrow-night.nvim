@@ -1,4 +1,5 @@
 local p = require("palette")
+local abstract = require("abstract")
 
 return {
 	-- Vim Highlighting
@@ -33,15 +34,14 @@ return {
 	-- Standard Highlighting
 	-- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L273-L290
 
-	Comment = { fg = p.comment },
+	Comment = abstract("comment"),
 	Todo = { fg = p.comment, bg = p.background },
-	Title = { fg = p.comment },
 	Conditional = { fg = p.foreground },
 	Repeat = { fg = p.foreground },
 	Structure = { fg = p.purple },
 	Function = { fg = p.blue },
 	Constant = { fg = p.orange },
-	String = { fg = p.green },
+	String = abstract("string"),
 	PreProc = { fg = p.purple },
 	Operator = { fg = p.aqua },
 	Define = { fg = p.purple },

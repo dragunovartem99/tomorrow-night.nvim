@@ -1,4 +1,6 @@
 local modules = {
+	"abstract.links",
+
 	"foundation.authentic",
 	"foundation.custom",
 
