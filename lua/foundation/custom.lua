@@ -10,4 +10,5 @@ return {
 	Title = { fg = p.white, bold = true },
 	Type = { fg = p.yellow },
 	Statement = { fg = p.purple },
+	Identifier = { fg = p.white },
 }

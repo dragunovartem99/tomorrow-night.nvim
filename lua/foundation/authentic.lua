@@ -35,7 +35,6 @@ return {
 	Comment = { fg = p.comment },
 	Todo = { fg = p.comment, bg = p.background },
 	Title = { fg = p.comment },
-	Identifier = { fg = p.red },
 	Conditional = { fg = p.foreground },
 	Repeat = { fg = p.foreground },
 	Structure = { fg = p.purple },
