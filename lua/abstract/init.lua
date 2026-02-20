@@ -17,7 +17,6 @@ return function(key)
 
 		SPECIAL = { fg = p.red },
 
-		TAG = { fg = p.red }, -- in authentic theme, HTML tags were also red
 		TITLE = { fg = p.white, bold = true },
 	})[key]
 end
