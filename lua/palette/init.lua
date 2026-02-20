@@ -1,10 +1,8 @@
 -- Tomorrow Night by Chris Kempson
 
--- stylua: ignore
-
 -- https://github.com/chriskempson/vim-tomorrow-theme/blob/master/colors/Tomorrow-Night.vim#L7-L19
 
-local palette = {
+return {
 	-- https://coolors.co/1d1f21-282a2e-373b41-4d5057-969896-c5c8c6-e2e4e3
 	background = "#1d1f21",
 	line       = "#282a2e",
@@ -23,5 +21,3 @@ local palette = {
 	blue       = "#81a2be",
 	purple     = "#b294bb",
 }
-
-return palette
