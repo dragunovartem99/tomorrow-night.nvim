@@ -12,7 +12,7 @@
 
 ## Purpose
 
-This is a [Neovim](https://github.com/neovim/neovim) colorscheme based on ["Tomorrow Theme"](github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson/)
+This is a [Neovim](https://github.com/neovim/neovim) colorscheme based on ["Tomorrow Theme"](https://github.com/chriskempson/tomorrow-theme) by [Chris Kempson](https://github.com/chriskempson/)
 
 My intention is to keep most of the [authentic styles](https://github.com/dragunovartem99/tomorrow-night.nvim/blob/main/lua/foundation/authentic.lua) from the author's theme, while designing the package to be modular and extendable. This interpretation includes some [custom styles](https://github.com/dragunovartem99/tomorrow-night.nvim/blob/main/lua/foundation/custom.lua), mostly to improve readability. For example, the types are highlighted in **yellow** to stand out from the rest of the code
 
