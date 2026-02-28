@@ -2,21 +2,37 @@ local p = require("palette")
 
 return function(key)
 	return ({
-		CLASS = { fg = p.white },
-		PROPERTY = { fg = p.foreground },
+		-- groups from "syntax.txt", help file in
+		-- VIM REFERENCE MANUAL by Bram Moolenaar
+
+		COMMENT = { fg = p.comment },
+
+		CONSTANT = { fg = p.orange },
+		STRING = { fg = p.green },
+
+		IDENTIFIER = { fg = p.white },
 		FUNCTION = { fg = p.blue },
 
-		VARIABLE = { fg = p.white },
-		CONSTANT = { fg = p.orange },
+		STATEMENT = { fg = p.purple },
+		OPERATOR = { fg = p.aqua },
 
 		TYPE = { fg = p.yellow },
-		STRING = { fg = p.green },
-		COMMENT = { fg = p.comment },
-		OPERATOR = { fg = p.aqua },
-		STATEMENT = { fg = p.purple },
 
 		SPECIAL = { fg = p.red },
 
-		TITLE = { fg = p.white, bold = true },
+		ERROR = { fg = p.white, bg = p.red },
+
+		TODO = { fg = p.comment, bg = p.background },
+
+		ADDED = { fg = p.green },
+		CHANGED = { fg = p.aqua },
+		REMOVED = { fg = p.red },
+
+		-- custom semantic groups for extra needs
+
+		CLASS = { fg = p.white },
+		PROPERTY = { fg = p.foreground },
+
+		SEARCH = { fg = p.background, bg = p.yellow },
 	})[key]
 end

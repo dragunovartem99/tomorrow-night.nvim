@@ -5,8 +5,6 @@ local modules = {
 	"programming.treesitter",
 	"programming.diagnostic",
 	"programming.bash",
-
-	"libraries.gitsigns",
 }
 
 local Theme = {}
