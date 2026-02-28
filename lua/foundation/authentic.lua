@@ -1,5 +1,5 @@
-local p = require("palette")
 local abstract = require("abstract")
+local p = require("palette")
 
 return {
 	-- Vim Highlighting
