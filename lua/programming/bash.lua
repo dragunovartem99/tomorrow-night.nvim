@@ -5,4 +5,5 @@ return {
 	shOption = abstract("PROPERTY"),
 	shQuote = abstract("STRING"),
 	shSource = abstract("STATEMENT"),
+	shTestOpr = abstract("OPERATOR"),
 }

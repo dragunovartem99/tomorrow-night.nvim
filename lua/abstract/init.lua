@@ -16,6 +16,8 @@ return function(key)
 		STATEMENT = { fg = p.purple },
 		OPERATOR = { fg = p.aqua },
 
+		PREPROC = { fg = p.purple },
+
 		TYPE = { fg = p.yellow },
 
 		SPECIAL = { fg = p.red },
