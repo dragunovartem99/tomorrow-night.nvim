@@ -38,6 +38,6 @@ return function(key)
 		INFO = { fg = p.blue },
 		HINT = { fg = p.aqua },
 
-		SEARCH = { fg = p.background, bg = p.yellow },
+		SEARCH = { fg = p.yellow, bg = p.background, reverse = true },
 	})[key]
 end
