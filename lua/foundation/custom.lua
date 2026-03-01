@@ -11,7 +11,7 @@ return {
 
 	Special = abstract("SPECIAL"),
 
-	Error = abstract("ERROR"),
+	Error = { fg = p.white, bg = p.red },
 
 	Added = abstract("ADDED"),
 	Changed = abstract("CHANGED"),
@@ -19,8 +19,8 @@ return {
 
 	CurSearch = abstract("SEARCH"),
 
-	ErrorMsg = { fg = p.red },
-	WarningMsg = { fg = p.yellow },
+	ErrorMsg = abstract("ERROR"),
+	WarningMsg = abstract("WARN"),
 
 	DiffAdd = { fg = p.green, bg = p.background, reverse = true },
 	DiffChange = { fg = p.window, bg = p.white, reverse = true },

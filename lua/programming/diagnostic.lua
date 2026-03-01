@@ -1,8 +1,8 @@
-local p = require("palette")
+local abstract = require("abstract")
 
 return {
-	DiagnosticError = { fg = p.red },
-	DiagnosticWarn = { fg = p.yellow },
-	DiagnosticInfo = { fg = p.blue },
-	DiagnosticHint = { fg = p.aqua },
+	DiagnosticError = abstract("ERROR"),
+	DiagnosticWarn = abstract("WARN"),
+	DiagnosticInfo = abstract("INFO"),
+	DiagnosticHint = abstract("HINT"),
 }

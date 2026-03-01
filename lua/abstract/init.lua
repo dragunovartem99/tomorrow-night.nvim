@@ -22,8 +22,6 @@ return function(key)
 
 		SPECIAL = { fg = p.red },
 
-		ERROR = { fg = p.white, bg = p.red },
-
 		TODO = { fg = p.comment, bg = p.background },
 
 		ADDED = { fg = p.green },
@@ -34,6 +32,11 @@ return function(key)
 
 		CLASS = { fg = p.white },
 		PROPERTY = { fg = p.foreground },
+
+		ERROR = { fg = p.red },
+		WARN = { fg = p.yellow },
+		INFO = { fg = p.blue },
+		HINT = { fg = p.aqua },
 
 		SEARCH = { fg = p.background, bg = p.yellow },
 	})[key]
