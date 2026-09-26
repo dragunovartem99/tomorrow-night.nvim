@@ -18,6 +18,20 @@ My intention is to keep most of the [authentic styles](https://github.com/dragun
 
 The theme focuses on [Treesitter](https://github.com/nvim-treesitter/nvim-treesitter) highlighting. LSP semantic tokens aren't explicitly styled — so they can sometimes interfere with the intended look. I'd suggest [disabling them](https://github.com/dragunovartem99/nvim/blob/main/lua/plugins/lspconfig.lua#L14-L15) for the best experience
 
+## Installation
+
+With [lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+{
+	"dragunovartem99/tomorrow-night.nvim",
+	lazy = false,
+	config = function()
+		vim.cmd.colorscheme("tomorrow-night")
+	end,
+}
+```
+
 ## Gallery
 
 <img width="530" height="540" alt="Screenshot of Tomorrow Night colorscheme" src="https://github.com/user-attachments/assets/da7ca7b2-7342-41cf-8ee3-5e42ffe13cbc" />
